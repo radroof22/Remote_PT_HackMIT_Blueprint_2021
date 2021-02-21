@@ -1,0 +1,14 @@
+{
+  "bicep_curls": {
+    "body_parts": [
+      "leftWrist",
+      "leftElbow",
+      "leftShoulder"
+    ],
+    "thresholds": {
+      "flexion":30,
+      "extension": 170
+    },
+    "angleConv": 3.05555556
+  }
+}

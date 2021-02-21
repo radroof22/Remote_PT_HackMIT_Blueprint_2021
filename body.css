@@ -1,0 +1,197 @@
+body{
+  background-color: #caf0f8; 
+}
+.topnav {
+  overflow: hidden;
+  background-color:rgb(142, 179, 177);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#191716;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+#top-rectangle {
+    position: center;
+    height: 140px;
+    width: 640px;
+    background-color: #caf0f8;
+    margin: 0 auto;
+    border-radius: 50px 50px 0px 0px;
+}
+
+#videoContainer {
+    position: center;
+    height: 480px;
+    width: 640px;
+    background-color: #000000;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    border-style: solid;
+    border-color:rgb(142, 179, 177);
+}
+
+#bottom-left-rectangle {
+    position: center;
+    height: 140px;
+    width: 640px;
+    background-color: #caf0f8;
+    border-radius: 0px 0px 0px 0px;
+    margin: 0 auto;
+    font-family: 'Courier New';
+    font-size: 20px;
+    text-align: center;
+    color: Black;
+    border-style: solid;
+    border-color:rgb(142, 179, 177);
+}
+
+#bottom-right-rectangle {
+    position: center;
+    height: 140px;
+    width: 640px;
+    background-color:rgb(142, 179, 177);
+    border-radius: 0px 0px 50px 50px;
+    margin: 0 auto;
+    font-family: 'Courier New';
+    font-size: 20px;
+    text-align: center;
+    color: Black;
+    border-style: solid;
+    border-color: rgb(142, 179, 177);
+}
+
+#bottom-top-rectangle {
+    position: center;
+    height: 140px;
+    width: 640px;
+    background-color:rgb(142, 179, 177);
+    border-radius: 0px 0px 0px 0px;
+    margin: 0 auto;
+    font-family: 'Courier New';
+    font-size: 20px;
+    text-align: center;
+    color: Black;
+    border-style: solid;
+    border-color: rgb(142, 179, 177);
+}
+
+#name-of-exercise {
+    padding: 10px;
+    font-family: "Courier New";
+    font-size: 50px;
+    
+}
+
+.data-text {
+    color: black;
+    text-align: center;
+}
+
+/* #videoContainer {
+  width: 640px;
+} */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 0, 0);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+#left_or_right {
+  margin-left: 48%;
+  margin-bottom: 3%;
+}
